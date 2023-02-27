@@ -1,15 +1,32 @@
-@media screen and (max-width: 720px){
+@media screen and (max-width: 720px) {
 }
 
 @font-face {
-    font-family: 'Gothic A1';
-    src: url(assets/GothicA1-ExtraLight.ttf);
+  font-family: sansNarrow;
+  src: url("../assets/fonts/helvetica-narrow/helvetica-narrow.ttf");
 }
 
 body {
-    margin-left: 3rem;
-    background-color: rgb(242, 242, 242);
-    font-family: 'Gothic A1', Fallback, sans-serif;
-    font-size: 2em;
-    color: white;
+  height: 100%;
+  width: 100%;
+  cursor: default;
+}
+
+p {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: rgb(24, 24, 24);
+  font-family: "sansNarrow", Fallback, sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  cursor: pointer;
 }
